@@ -110,7 +110,6 @@
 				TargetAttributes = {
 					AC4D14251E560BF500217A6B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 9XANS77P5U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9XANS77P5U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Test_NSRegularExpression/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "md.Test-NSRegularExpression";
@@ -285,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9XANS77P5U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Test_NSRegularExpression/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "md.Test-NSRegularExpression";
@@ -312,6 +311,7 @@
 				AC4D143F1E560BF500217A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

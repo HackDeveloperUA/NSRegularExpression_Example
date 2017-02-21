@@ -22,7 +22,13 @@
 
     
     //---------------*****************************   NSRegularExpression  *****************************---------------//
-
+    
+    /*
+      Регулярное выражение - строка или последовательность символов, которая задает шаблон.
+      С помощью которого можно делать очень гибкие поисковые выборки в тексте.
+     
+    
+    */
     
     //--0 Процесс создания регулярного выражения
     
@@ -122,7 +128,8 @@
     // ----- Создание экземпляра NSDataDectector
     
     NSError* error1 = nil;
-    NSDataDetector* detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink | NSTextCheckingTypePhoneNumber
+    NSDataDetector* detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink |
+                                                                     NSTextCheckingTypePhoneNumber
                                                                error:&error];
     
     
